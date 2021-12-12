@@ -10,7 +10,7 @@ from .forms import StockForm
 
 # Create your views here.
 config = configparser.ConfigParser()
-config.read('./config.ini')
+config.read('../../../_configs/config.ini')
 API_KEY = config['iexcloud.io']['API_KEY']
 
 
